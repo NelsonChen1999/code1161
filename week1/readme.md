@@ -1,1 +1,2 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+This week in CODE1161 I learned that 'coding is hard' is just a myth, however it is still to be determined whether or not i can grasp the language of python as i have had no prior experience to coding. I also learned that it is tradition for an individual to write out 'Hello world' when learning a new language.
