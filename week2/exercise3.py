@@ -25,7 +25,19 @@ def fix_it(moves=True, should_move=True):
     "Duct Tape"
     "No Problem"
     """
-    pass
+    if moves == True:
+        if should_move == True:
+            return "No Problem"
+        else:
+            if should_move != True:
+                return "Duct Tape"
+    else:
+        if moves != True:
+            if should_move == True:
+                return "WD-40"
+            else:
+                if should_move != True:
+                    return "No Problem"
 
 
 def loops_1a():
