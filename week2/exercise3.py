@@ -7,7 +7,11 @@ def is_odd(a_number):
 
     Look into modulo division using the '%' operator as one way of doing this.
     """
-    pass
+    if a_number % 2 == 0:
+        return False
+    else:
+        if a_number % 2 == 1:
+            return True
 
 
 def fix_it(moves=True, should_move=True):
@@ -32,7 +36,6 @@ def loops_1a():
     E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
     pass
-
 
 
 def loops_1c(number_of_items=5, symbol="#"):
