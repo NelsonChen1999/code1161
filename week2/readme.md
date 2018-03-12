@@ -1,1 +1,3 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+This week i learned a lot about how coding works such as, conditional statements. I also learnt that the different brackets do different things.
+However, i still do not understand much about using loops and range(). In exercise3 i managed to return some of what was required, but i do not understand why it returned the way it did.
