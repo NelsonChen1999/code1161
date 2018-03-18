@@ -15,12 +15,12 @@ some_words = ['what', 'does', 'this', 'line', 'do', '?']
 # I think this will print the words that are in the list in the variable "some_words"
 for word in some_words: #This line printed each each word in the list "some_words" on their own lines
     print(word)
-
+#
 for x in some_words:
     print(x)
 # I think this will just print "['what', 'does', 'this', 'line', 'do', '?']" as it is
 print(some_words) #It printed "['what', 'does', 'this', 'line', 'do', '?']" as it was
-
+#Prints 'some_words contains more than 3 words' if the number of letters in if is more than 3
 if len(some_words) > 3:
     print('some_words contains more than 3 words')
 
