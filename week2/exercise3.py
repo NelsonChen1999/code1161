@@ -48,9 +48,9 @@ def loops_1a():
     E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
     loops_1a = []
-    for i in range(10):
+    for items in range(10):
         loops_1a.append('*')
-    return loops_1a
+#i don't get it
 
 def loops_1c(number_of_items=5, symbol="#"):
     """Respond to variables.
@@ -60,10 +60,7 @@ def loops_1c(number_of_items=5, symbol="#"):
     a string with exacly one symbol in it.
     E.g.: ['#', '#', '#', '#', '#']
     """
-    loops_1c = []
-    for i in range(number_of_items):
-        loops_1c.append(symbol)
-    return loops_1c
+    pass
 
 
 def loops_2():
@@ -84,13 +81,8 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
           ]
     """
-    loops_2 = []
-    loops_2_a = []
-    for i in range(10):
-        loops_2.append('*')
-        loops_2_a.append(loops_2)
-    return loops_2_a
-    
+    pass
+
 
 def loops_3():
     """Make a rising block of numbers.
@@ -113,13 +105,7 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-    loops_3 = []
-    for i in range(10):
-        loops_3_a = []
-        for j in range(10):
-            loops_3_a.append(str(i))
-        loops_3.append(loops_3_a)
-    return loops_3
+    
 
 
 def loops_4():
@@ -139,19 +125,9 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-    """
     loops_4 = list(range(10))
     for i in list(range(10)):
         loops_4.append(list(range(10)))
-    return loops_4
-    """
-    loops_4 = []
-    for i in range(10):
-        loops_4_a = []
-        for j in range(10):
-            loops_4_a.append(str(j))
-        loops_4.append(loops_4_a)
-    return loops_4
 
 
 def loops_5():
@@ -176,15 +152,7 @@ def loops_5():
         "There are {} green bottles".format(8)
     you'll come to see the pros and cons of each over time.
     """
-    loops_5 = []
-    for y in range(10):
-        loops_5_a = []
-        for x in range(5):
-            loops_5_a.append("(i" + str(y) + ", j" + str(x) + ")")
-        loops_5.append(loops_5_a)
-    return loops_5
-
-        
+    pass
 
 
 def loops_6():
@@ -207,12 +175,8 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
-    loops_6 = []
-    for i in range(10):
-        for j in range(i + 1):
-            loops_6.append(str(j))
-        loops_6.append("\n")
-    return loops_6
+    pass
+
 
 def loops_7():
     """Make a pyramid.
