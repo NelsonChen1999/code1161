@@ -199,7 +199,13 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
-    pass
+    loops_6 = []
+    for y in range(10):
+        loops_6_a = []
+        for x in range(y + 1):
+            loops_6_a.append(str(x))
+        loops_6.append(loops_6_a)
+    return loops_6
 
 
 def loops_7():
@@ -223,7 +229,16 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    pass
+    loops_7 = []
+    for y in range(5):
+        loops_7_a = []
+        for x in range(9):
+            if abs(x - 4) <= y:
+                loops_7_a.append("*")
+            else:
+                loops_7_a.append(" ")
+        loops_7.append(loops_7_a)
+    return loops_7
 
 
 def lp(some_kind_of_list, exercise_name):
