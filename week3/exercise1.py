@@ -54,7 +54,7 @@ def stubborn_asker(low, high):
     until you get a number that you think is OK
     """
     while True:
-    #    a_number = int(input("Enter a number between {} and {}".format(low, high)))
+    #   a_number = int(input("Enter a number between {} and {}".format(low, high)))
         a_number = int(input())
         if a_number < low or a_number > high:
             print("That is not in the boundary")
@@ -69,8 +69,16 @@ def not_number_rejector(message):
     "six", "8!") then throw it out and ask for an actual number.
     When you do get a number, return it.
     """
-    pass
-
+    while True:
+        try:
+            a_number = int(input())
+        except ValueError:
+            print(message)
+            continue
+#        if not a_number.is_integer():
+#            print(message)
+        else:
+            return a_number
 
 def super_asker(low, high):
     """Robust asking function.
@@ -79,6 +87,7 @@ def super_asker(low, high):
     that does it all!
     """
     pass
+
 
 
 if __name__ == "__main__":
