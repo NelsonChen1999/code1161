@@ -36,14 +36,6 @@ def advancedGuessingGame():
         print("That is not in the boundaries ")
       else:
         break
-    while True:
-      try:
-        lowerBound = int(input())
-      except ValueError:
-        print("Please choose a number")
-        continue
-      else:
-        break
     print("OK then, a number between {} and 50 ?".format(lowerBound))
     lowerBound = int(lowerBound)
     

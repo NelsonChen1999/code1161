@@ -71,14 +71,14 @@ def not_number_rejector(message):
     """
     while True:
         try:
-            a_number = int(input())
-        except ValueError:
-            print(message)
-            continue
-#        if not a_number.is_integer():
-#            print(message)
-        else:
+            a_number = int(input(message))
             return a_number
+        except ValueError:
+            print("That's not a number, Try again")
+            continue
+        except TypeError:
+            print("That's not a number, Try again")
+            continue
 
 def super_asker(low, high):
     """Robust asking function.
@@ -86,7 +86,17 @@ def super_asker(low, high):
     Combine stubborn_asker and not_number_rejector to make a function
     that does it all!
     """
-    pass
+    while True:
+        try:
+            a_number = int(input("Enter a number between {} and {}".format(low, high)))
+            if low < a_number < high:
+                print("{} looks good".format(a_number))
+                return a_number
+        except Exception as e:
+            print("Try again ({})".format(e))
+        
+        else:
+            print("{} isn't between {} and {}".format(a_number, low, high))
 
 
 
