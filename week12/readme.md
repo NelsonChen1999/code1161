@@ -1,1 +1,2 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+I honestly forgot about the weekly lab books, but i remembered this week(i.e. i saw other people doing it)
+As for python, this previous week i was just working on the open dataset task, i further learnt how dictionaries work and created some for my open data set task. Kaggle has a good layout for writing code and seeing what a code does, it was greatly useful for creating my open dataset task.
